@@ -35,7 +35,7 @@ function User() {
       <div class="d-sm-flex align-items-center justify-content-between mb-4">
         <h1 class="h3 mb-0 text-gray-800">Users</h1>
         <Link
-          to={"/user_create"}
+          to={"/portal/user_create"}
           class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"
         >
           <i class="fas fa-download fa-sm text-white-50"></i>Create User
@@ -103,13 +103,13 @@ function User() {
                         <td>{user.gender}</td>
                         <td>
                           <Link
-                            to={`/user/${user.id}`}
+                            to={`/portal/user/${user.id}`}
                             className="btn btn-warning m-2"
                           >
                             View
                           </Link>
                           <Link
-                            to={`/edit/${user.id}`}
+                            to={`/portal/edit/${user.id}`}
                             className="btn btn-primary m-2"
                           >
                             Edit

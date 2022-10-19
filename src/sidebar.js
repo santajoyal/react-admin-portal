@@ -35,7 +35,7 @@ function Sidebar() {
       <li class="nav-item">
         <Link
           class="nav-link collapsed"
-          to={"/users"}
+          to={"/portal/users"}
           data-toggle="collapse"
           data-target="#collapseTwo"
           aria-expanded="true"
